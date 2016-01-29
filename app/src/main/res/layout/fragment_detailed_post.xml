@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_openigns"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/item_tittle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Broken Cable"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_tittle"
+            android:fontFamily="sans-serif"
+            android:text="Category"
+            android:textSize="18sp"
+
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:id="@+id/item_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/dashboard_rs_small" />
+
+        <TextView
+            android:id="@+id/item_likesno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/item_likes"
+            android:fontFamily="sans-serif"
+            android:minLines="2"
+            android:text="433 people\n+1'd this"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+
+    android:src="@drawable/cam"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:text="Edappaly, Kochi" />
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You can view other complaints in your area.You can view other complaints in your area.You can view other complaints in your area.You can view other complaints in your areaYou can view other complaints in your area.You can view other complaints in your area"
+        android:textColor="#a0a0a0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/rounded_openigns"
+      android:textStyle="bold"
+        android:text="Status : Authenticating" />
+
+</LinearLayout>
